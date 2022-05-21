@@ -1,0 +1,21 @@
+p {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.success {
+  background-color: #45d345;
+  color: white;
+  text-aligh: left;
+  padding: 10px;
+
+}
+
+.messages {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}

@@ -6,11 +6,10 @@ p {
 }
 
 .success {
-background-color: #3ddb5d; margin: 10px; padding: 10px;
+  background-color: #0bcb3b; margin: 10px; padding: 10px;
   width: 400px;
   color: white;
   border-radius: 5px;
-
 }
 
 .messages {
@@ -19,3 +18,12 @@ background-color: #3ddb5d; margin: 10px; padding: 10px;
   left: 10px;
   z-index: 1;
 }
+
+*{
+  margin: 0px; padding: 0px;
+
+
+
+
+
+

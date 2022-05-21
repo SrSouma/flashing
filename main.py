@@ -10,7 +10,7 @@ def index():
 
 @app.route('/flashing')
 def flashing():
-  flash('sucesso!', 'success')
+  flash('sucesso', 'success')
   return render_template('index.html')
 
 app.run(host='0.0.0.0', port=81)

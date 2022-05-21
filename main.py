@@ -9,7 +9,7 @@ def index():
 
 @app.route('/flashing')
 def flashing():
-  flash('sucesso', 'success')
+  flash('Sucesso', 'success')
   return render_template('index.html')
 
 if __name__ == '__main__':
